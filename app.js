@@ -12,7 +12,7 @@ previousButton.addEventListener('click', previousSlide);
 
 function nextSlide() {
   //Image animation transition effect
-  container.animate([{ opacity: '0.1' }, { opacity: '1' }], { duration: 1000, fill: 'forwards' });
+  container.animate([{ opacity: '0.5' }, { opacity: '1' }], { duration: 2000, fill: 'forwards' });
   //Loops through images 1 to 6
   if (counter === 6) {
     counter = 0;
